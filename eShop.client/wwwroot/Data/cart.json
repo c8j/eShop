@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "product": {
+      "id": 1,
+      "name": "kofot",
+      "price": 100
+    },
+    "quantity": 2,
+    "totalPrice": 200
+  },
+  {
+    "product": {
+      "id": 3,
+      "name": "slägga",
+      "price": 500
+    },
+    "quantity": 2,
+    "totalPrice": 1000
+  },
+  {
+    "product": {
+      "id": 2,
+      "name": "hammare",
+      "price": 200
+    },
+    "quantity": 2,
+    "totalPrice": 400
+  },
+  {
+    "product": {
+      "id": 4,
+      "name": "såg",
+      "price": 300
+    },
+    "quantity": 2,
+    "totalPrice": 600
+  }
+]

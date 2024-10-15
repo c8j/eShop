@@ -21,10 +21,10 @@ public class Storage
         File.WriteAllText(path, json);
     }
 
-    public static List<T> ReadJson<T>(string path)
+    public static List<T>? ReadJson<T>(string path)
     {
         var json = File.ReadAllText(path);
         List<T>? data = JsonSerializer.Deserialize<List<T>>(json, s_options);
-        return data!;
+        return data;
     }
 }
