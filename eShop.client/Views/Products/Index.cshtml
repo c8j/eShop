@@ -8,6 +8,7 @@
             <th>ID</th>
             <th>Name</th>
             <th>Price</th>
+            <th>Add to cart</th>
         </tr>
     </thead>
     <tbody>
@@ -17,6 +18,8 @@
                 <td>@product.ID</td>
                 <td>@product.Name</td>
                 <td>@product.Price</td>
+                <td><a asp-controller="Cart" asp-action="AddProduct" asp-route-product="@product"><i
+                            class="fa-solid fa-circle-plus"></i></a></td>
             </tr>
         }
     </tbody>

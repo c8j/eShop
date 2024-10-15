@@ -35,19 +35,18 @@ ul {
 
 a {
     text-decoration: none;
-    color: #f4f4f4;
 }
 
 /* Tabell layout */
 table {
-    border: solid 1px #172554;
-    background-color: #0c4a6e;
+    border: solid 1px #bd1f44;
+    background-color: #af7180;
     border-collapse: collapse;
     width: 100%;
 }
 
 table thead {
-    background-color: #172554;
+    background-color: #bd1f44;
     color: #fff;
 }
 
@@ -59,7 +58,12 @@ table thead th {
 
 table tbody td {
     padding: 0.3rem 0.6rem;
-    color: #fff;
+    color: #000000;
+}
+
+table tbody td a {
+    text-decoration: none;
+    color: #000000;
 }
 
 /******************************************************************/
