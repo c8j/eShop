@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "name": "crowbar",
+        "name": "kofot",
         "price": 100
     },
     {
         "id": 2,
-        "name": "hammer",
+        "name": "hammare",
         "price": 200
     },
     {
         "id": 3,
-        "name": "sledgehammer",
+        "name": "slägga",
         "price": 500
     },
     {
         "id": 4,
-        "name": "saw",
+        "name": "såg",
         "price": 300
     }
 ]
