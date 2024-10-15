@@ -11,8 +11,7 @@ public class ProductsController : Controller
     public ProductsController(IWebHostEnvironment webHostEnvironment)
     {
         _webHostEnvironment = webHostEnvironment;
-        string path = webHostEnvironment.WebRootPath + "/Data/products.json";
-        _products = Storage.ReadJson<Product>(path);
+        _products = Storage.ReadJson<Product>(webHostEnvironment.WebRootPath + "/Data/products.json");
     }
 
     public IActionResult Index()
