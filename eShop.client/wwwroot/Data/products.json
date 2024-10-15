@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "crowbar",
+        "price": 100
+    },
+    {
+        "id": 2,
+        "title": "hammer",
+        "price": 200
+    },
+    {
+        "id": 3,
+        "title": "sledgehammer",
+        "price": 500
+    },
+    {
+        "id": 4,
+        "title": "saw",
+        "price": 300
+    }
+]
