@@ -2,6 +2,8 @@
 
 <h1>Produkter</h1>
 
+<a class="btn btn-rounded" asp-controller="Cart" asp-action="Index">Go to cart</a>
+
 <table>
     <thead>
         <tr>
@@ -18,7 +20,7 @@
                 <td>@product.ID</td>
                 <td>@product.Name</td>
                 <td>@product.Price</td>
-                <td><a asp-controller="Cart" asp-action="AddProduct" asp-route-product="@product"><i
+                <td><a asp-controller="Cart" asp-action="AddProduct" asp-route-productID="@product.ID"><i
                             class="fa-solid fa-circle-plus"></i></a></td>
             </tr>
         }

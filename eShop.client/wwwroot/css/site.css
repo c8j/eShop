@@ -66,6 +66,10 @@ table tbody td a {
     color: #000000;
 }
 
+.fright {
+    float: right;
+}
+
 /******************************************************************/
 
 /* Navigeringsmenyn */

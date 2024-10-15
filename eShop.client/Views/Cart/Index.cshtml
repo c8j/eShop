@@ -1,0 +1,31 @@
+@model List<eShop.models.CartItem>
+
+<h1>Shopping cart</h1>
+
+<a class="btn btn-rounded" asp-controller="Products" asp-action="Index">Go back to products</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Total price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            decimal total = 0M;
+            foreach (var cartItem in Model)
+            {
+                <tr>
+                    <td>@cartItem.Product.Name</td>
+                    <td>@cartItem.Quantity</td>
+                    <td>@cartItem.TotalPrice</td>
+                </tr>
+                total += cartItem.TotalPrice;
+            }
+        }
+    </tbody>
+</table>
+
+<div class="fright">Total: @total</div>
